@@ -1,0 +1,4 @@
+<mat-toolbar color="primary">
+  <button mat-raised-button (click)="chooseWallet()">Connect</button>
+  <span>Connected: {{ userWallet$ | async }}</span>
+</mat-toolbar>

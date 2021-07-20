@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
